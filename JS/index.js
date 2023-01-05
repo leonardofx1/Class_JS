@@ -31,14 +31,3 @@ console.log(casa1)
 casa1.alterarPreco('100,000')
 
 console.log(casa1)
-
-    const classCheck =  false
-    classCheck && console.log('ola');
-    
-    form.addEventListener('click', e => {
-        e.preventDefault();
-        const target = e.target;
-        const classCheck =  e.target.classList.contains('theme')
-        classCheck&& selectItem(buttonsNumberOfPlayers,target);
-        
-    })
